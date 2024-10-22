@@ -1,7 +1,9 @@
 Introduction
+
 Fahras is a book management system built with Vue.js, Tailwindcss.
 
 Installation
+
 To install and run the Fahras project locally, follow these steps:
 
 Clone the repository:
@@ -11,6 +13,7 @@ git clone https://github.com/nourMauhoub/fahras-vue
 ```
 
 Navigate into the project directory:
+
 ```
 cd fahras
 ```
@@ -18,19 +21,23 @@ cd fahras
 Install dependencies:
 
 Ensure you have Node.js installed. Then run:
+
 ```
 npm install
 ```
 
 Run the development server:
+
 ```
 npm run serve
 ```
 
 Open your browser and visit:
+
 http://localhost:8080 - http://localhost:8081
 
 Project Structure
+
 The project structure is organized as follows:
 
 fahras/
@@ -48,11 +55,14 @@ fahras/
 └── README.md
 
 Features
+
 Responsive Navigation: A mobile-friendly navigation menu that toggles on smaller screens.
 Contact Information: Display of contact numbers and email for user inquiries.
 
 Components
+
 Main Components
+
 App.vue that contains 
 
 - Navbar.vue
@@ -67,6 +77,7 @@ MainFahras.vue
 Displays a list of books available in the system.
 
 Routing
+
 The application uses Vue Router for navigation. The routes are defined in the src/router/index.js file. Example routes include:
 ```
 import Vue from 'vue';
@@ -87,9 +98,11 @@ export default new Router({
 ```
 
 Styling
+
 The application uses Tailwind CSS for styling. Custom styles can be added in the src/assets/main.css file. Ensure to include the Tailwind CSS CDN in your public/index.html if not using a build tool.
 
 API
+
 This application interacts with fahras the  API, describe the endpoints here. For example:
 
 GET /api/books
@@ -108,4 +121,5 @@ Response:
 ```
 
 Contributing
+
 Contributions are welcome! ⬤
